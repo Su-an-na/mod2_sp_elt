@@ -1,0 +1,21 @@
+[0m11:51:53.012357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x798bd5b4e010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x798bd5b44550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x798bd5b444d0>]}
+
+
+============================== 11:51:53.016011 | 80062b7c-5bdc-4b89-ad21-807142e355f3 ==============================
+[0m11:51:53.016011 [info ] [MainThread]: Running with dbt=1.11.11
+[0m11:51:53.016643 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'log_cache_events': 'False', 'profiles_dir': '/home/suhana/.dbt', 'quiet': 'False', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'empty': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'log_path': 'logs', 'partial_parse': 'True', 'warn_error': 'None', 'no_print': 'None', 'printer_width': '80', 'cache_selected_only': 'False', 'target_path': 'None', 'debug': 'False'}
+[0m11:51:53.036013 [info ] [MainThread]: dbt version: 1.11.11
+[0m11:51:53.037105 [info ] [MainThread]: python version: 3.11.14
+[0m11:51:53.037466 [info ] [MainThread]: python path: /home/suhana/miniconda3/envs/elt/bin/python
+[0m11:51:53.037728 [info ] [MainThread]: os info: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43
+[0m11:51:57.269336 [info ] [MainThread]: Using profiles dir at /home/suhana/.dbt
+[0m11:51:57.269823 [info ] [MainThread]: Using profiles.yml file at /home/suhana/.dbt/profiles.yml
+[0m11:51:57.270126 [info ] [MainThread]: Using dbt_project.yml file at /home/suhana/GitHub/mod2_sp_elt/meltano-spelt/dbt_project.yml
+[0m11:51:57.270447 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m11:51:57.270874 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 4.2983575, "process_in_blocks": "0", "process_kernel_time": 0.851678, "process_mem_max_rss": "426952", "process_out_blocks": "0", "process_user_time": 3.652933}
+[0m11:51:57.271362 [debug] [MainThread]: Command `dbt debug` failed at 11:51:57.271280 after 4.30 seconds
+[0m11:51:57.271665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x798bd5ba7dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x798badfa9210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x798bd5b3fe50>]}
+[0m11:51:57.271967 [debug] [MainThread]: Flushing usage events
+[0m11:51:58.250781 [debug] [MainThread]: An error was encountered while trying to flush usage events

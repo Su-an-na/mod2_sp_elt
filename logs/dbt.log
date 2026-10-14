@@ -1,0 +1,67 @@
+[0m21:16:58.607255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d33f4f0bd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d33f4f00c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d33f518ed50>]}
+
+
+============================== 21:16:58.610525 | b425c23b-9ec7-4f7d-8589-badf8d0ab657 ==============================
+[0m21:16:58.610525 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:16:58.611041 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'write_json': 'True', 'log_format': 'default', 'quiet': 'False', 'indirect_selection': 'eager', 'debug': 'False', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'printer_width': '80', 'invocation_command': 'dbt init sp500', 'introspect': 'True', 'fail_fast': 'False', 'profiles_dir': '/home/suhana/.dbt', 'static_parser': 'True', 'target_path': 'None', 'version_check': 'True', 'log_path': 'logs', 'no_print': 'None', 'log_cache_events': 'False'}
+[0m21:16:58.630849 [debug] [MainThread]: Starter project path: /home/suhana/miniconda3/envs/elt/lib/python3.11/site-packages/dbt/include/starter_project
+[0m21:16:58.635532 [info ] [MainThread]: 
+Your new dbt project "sp500" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:16:58.635991 [info ] [MainThread]: Setting up your profile.
+[0m21:20:12.146044 [info ] [MainThread]: Profile sp500 written to /home/suhana/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:20:12.147070 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 193.5791, "process_in_blocks": "0", "process_kernel_time": 0.698828, "process_mem_max_rss": "391160", "process_out_blocks": "0", "process_user_time": 3.106699}
+[0m21:20:12.148004 [debug] [MainThread]: Command `dbt init` succeeded at 21:20:12.147765 after 193.58 seconds
+[0m21:20:12.149377 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d33f4f44a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d33f52ab410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d33f4effed0>]}
+[0m21:20:12.150459 [debug] [MainThread]: Flushing usage events
+[0m21:20:13.169158 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:26:24.103941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff314a0c6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff314a6fdd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff3158e8290>]}
+
+
+============================== 11:26:24.108829 | c25de24d-04df-40c1-955c-d90664ded9ce ==============================
+[0m11:26:24.108829 [info ] [MainThread]: Running with dbt=1.11.11
+[0m11:26:24.109465 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'introspect': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/suhana/.dbt', 'warn_error': 'None', 'version_check': 'True', 'partial_parse': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'no_print': 'None', 'write_json': 'True', 'quiet': 'False', 'static_parser': 'True', 'printer_width': '80', 'indirect_selection': 'eager', 'empty': 'None', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m11:26:24.131427 [info ] [MainThread]: dbt version: 1.11.11
+[0m11:26:24.131875 [info ] [MainThread]: python version: 3.11.14
+[0m11:26:24.132200 [info ] [MainThread]: python path: /home/suhana/miniconda3/envs/elt/bin/python
+[0m11:26:24.132473 [info ] [MainThread]: os info: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43
+[0m11:26:28.875427 [info ] [MainThread]: Using profiles dir at /home/suhana/.dbt
+[0m11:26:28.875891 [info ] [MainThread]: Using profiles.yml file at /home/suhana/.dbt/profiles.yml
+[0m11:26:28.876177 [info ] [MainThread]: Using dbt_project.yml file at /home/suhana/GitHub/mod2_sp_elt/dbt_project.yml
+[0m11:26:28.876484 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m11:26:28.876921 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 4.8212323, "process_in_blocks": "0", "process_kernel_time": 1.136212, "process_mem_max_rss": "426584", "process_out_blocks": "0", "process_user_time": 3.700579}
+[0m11:26:28.877382 [debug] [MainThread]: Command `dbt debug` failed at 11:26:28.877305 after 4.82 seconds
+[0m11:26:28.877670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff319463ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff314d9bf90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff314a079d0>]}
+[0m11:26:28.878031 [debug] [MainThread]: Flushing usage events
+[0m11:26:29.858661 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:36:48.288435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74034fdd9490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74034fddab50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74034fdd8210>]}
+
+
+============================== 22:36:48.292264 | 5e3a3f44-42b5-4f09-8ac1-ae6fa20c4dd4 ==============================
+[0m22:36:48.292264 [info ] [MainThread]: Running with dbt=1.11.11
+[0m22:36:48.292762 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'log_format': 'default', 'partial_parse': 'True', 'fail_fast': 'False', 'printer_width': '80', 'target_path': 'None', 'debug': 'False', 'profiles_dir': '/home/suhana/.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'version_check': 'True', 'write_json': 'True', 'log_path': 'logs', 'use_colors': 'True', 'warn_error': 'None', 'log_cache_events': 'False', 'use_experimental_parser': 'False'}
+[0m22:36:48.293297 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/suhana/GitHub/mod2_sp_elt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:36:48.294000 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": false, "command_wall_clock_time": 0.045532487, "process_in_blocks": "0", "process_kernel_time": 0.201671, "process_mem_max_rss": "105996", "process_out_blocks": "0", "process_user_time": 1.072891}
+[0m22:36:48.294380 [debug] [MainThread]: Command `dbt deps` failed at 22:36:48.294296 after 0.05 seconds
+[0m22:36:48.294687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74034fd6c9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74034fd6fed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74034fd6ffd0>]}
+[0m22:36:48.295000 [debug] [MainThread]: Flushing usage events
+[0m22:36:49.286858 [debug] [MainThread]: An error was encountered while trying to flush usage events

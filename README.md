@@ -1,0 +1,1 @@
+S&P 500 Stock Data Pipeline and Analysis. Refer to REPORT.md file for the full report and documentation of this project.

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: proj2sp500
+    database: dsaimodule2-509312
+    schema: proj2sp500
+    tables:
+      - name: public_proj2_sp500

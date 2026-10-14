@@ -1,0 +1,54 @@
+version: 2
+
+models:
+  - name: fact_dailyprice
+    description: "Fact table for daily stock prices"
+    columns:
+      - name: id
+        description: "Primary key for the fact_dailyprice table"
+        tests:
+          - unique
+          - not_null
+
+      - name: ticker
+        description: "The stock ticker symbol"
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_ticker')     
+                field: ticker
+                severity: warn
+          -   dbt_expectations.expect_column_values_to_be_of_type:
+                arguments:
+                  column_type: string
+
+      - name: date
+        description: "The date of the stock price"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: "PARSE_DATE('%F', '2021-01-01')"
+                max_value: "CURRENT_DATE()"
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              arguments:
+                column_type: date
+
+      - name: close
+        description: "The closing stock price"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              arguments:
+                column_type: float64
+
+      - name: adj_close
+        description: "The adjusted closing stock price"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              arguments:
+                column_type: float64
+
+      
