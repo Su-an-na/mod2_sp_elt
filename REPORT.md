@@ -4,7 +4,17 @@
 > Members: Kenny, Angeline, Suhana, Neo, Michael
 ## Introduction
 
-This project demonstrates an end-to-end data pipeline and analysis workflow using a one-off static data source on six years of daily price data for S&P 500 stocks with over 600k of records. The data pipeline when through ELT process where it moves from CSV files through Supabase PostgreSQL and further extract and load into Google BigQuery as the destination datawarehouse, where it is further transformed with dbt in Google BigQuery and finally analyzed in Python.
+This project demonstrates an end-to-end data pipeline and analysis workflow using a one-off static data source on six years of daily price data for S&P 500 stocks with over 600k of records. The data pipeline when through ELT process where it moves from CSV files through Supabase PostgreSQL and further extract and load into Google BigQuery as the destination datawarehouse, where it is further transformed with dbt in Google BigQuery and finally analyzed in Python. From the anlysis notice some observation and able to extract some business insights on S&P500 stock performance.
+
+
+## Executive Summary
+
+* Established ELT data pipeline flow from S&P500 csv file data to Supabase(PostgreSQL) and finally to Google BigQuery as the datawarehouse destination.
+* Below are a few business insights we obtain from the S&P500 data:
+   * AAPL (Apple Inc.) has no incremental annual return growth since the period of 2023-10 to 2024-10.
+   * Information Technology produced the strongest average daily return but also the greatest variability, while lower-volatility sectors such as Utilities provided more stable but weaker average performance.
+   * NVDA has an excellent Sharpe ratio > 1 over the past 3 to 5 years, given that it is an industry leader in Artificial Intelligence.
+
 
 
 ## Technical Approach: Why tools were chosen?
@@ -232,11 +242,77 @@ Since we decide to use Meltano to facilitate ELT, we use Supabase to take advata
 
 
 ## Visualisation & Analysis
+Below are some analysis obtained.
 
-1. The first analysis done is to look at Annual Return Metric. We select one of the popular ticker AAPL (Apple Inc.) and analyse it's latest Year-On-Year stock performance by selecting from the latest ending of September performance and look back past 3 years. Below is the viusalisation on AAPL Year-On-Year returns using adjusted closing prices from October 2023 to end September 2026.
+### 1. Apple's annual returns for the last three 12-month trailing periods
+
+The first analysis done is to look at Annual Return Metric. We select one of the popular ticker AAPL (Apple Inc.) and analyse it's latest Year-On-Year stock performance by selecting from the latest ending of September performance and look back past 3 years. Below is the viusalisation on AAPL Year-On-Year returns using adjusted closing prices from October 2023 to end September 2026.
 
 ![AAPL Year-on-Year Annual Return Performance](images/annual_returns.png)
 
-   ### Observation
+   **Observation**
 
-   Looking at the bar chart above starting with 2023-10 to 2024-10, we can see the annual return is at 30.86%. For the next period from 2024-10 to 2025-10 the annual return is only 13.45% showing a 17.41% percentage points decline from the previous period. In the following year however we can see the annual return has climb back up to 29.79% with 16.34% percentage points increase. This tells us that even though annual return has improved in for the latest past 12 months compared to previous year same period <b> but ultimately there is no incremental annual return growth since the period of 2023-10 to 2024-10.<b/>
+   Looking at the bar chart above starting with 2023-10 to 2024-09, we can see the annual return is at 30.86%. For the next period from 2024-10 to 2025-09 the annual return is only 13.45% showing a 17.41% percentage points decline from the previous period. In the following year however we can see the annual return has climb back up to 29.79% with 16.34% percentage points increase. This tells us that even though annual return has improved in for the latest past 12 months compared to previous year same period <b> but ultimately there is no incremental annual return growth since the period of 2023-10 to 2024-09.</b>
+
+##
+
+
+### 2. Average Daily return by Sector
+   A simple exploratory analysis was performed using Python, pandas and SQLAlchemy on the transformed BigQuery warehouse.
+   The analysis examines average daily return and daily return volatility by S&P 500 sector over the latest one-year period. Daily returns were selected instead of comparing absolute share prices because stock prices are not directly comparable across companies due to differences in share counts, stock splits and capital structures. Percentage returns provide a more consistent basis for cross-sector comparison.
+
+   The analysis addresses two straightforward business questions:
+   1. Which sectors generated the highest average daily returns during the latest year?
+   2. Which sectors experienced the greatest daily return volatility?
+
+   Data was retrieved by joining fact_dailyprice with dim_ticker. Sector-level statistics were then calculated in pandas using the mean and standard deviation of daily_return. The mean represents average daily performance, while the standard deviation provides a simple measure of daily price volatility.
+   This analysis also makes use of the warehouse's derived daily_return field, which was independently reconciled during the data-quality testing process against adjusted-close returns with zero mismatches.
+
+![SP500 Average Daily Return](Michael/images/sp500_avg_daily_return.png)
+![SP500 Average Daily Return](Michael/images/sp500_daily_volatility.png)
+
+ **Observation**
+
+   Findings — Average Daily Return:
+   Over the latest one-year period, Information Technology recorded the highest average daily return at 0.2060%, followed by Energy at 0.1645% and Health Care at 0.0847%. Seven of the eleven sectors produced positive average daily returns, while Real Estate, Utilities, Consumer Discretionary and Communication Services recorded slightly negative averages. Communication Services had the lowest average daily return at -0.0182%. Overall, the results indicate that Information Technology and Energy delivered the strongest average day-to-day stock performance during the period, although these results represent historical performance and should not be interpreted as forecasts of future returns.
+
+   Findings — Daily Return Volatility:
+   Information Technology also recorded the highest daily return volatility at 3.6026%, followed by Health Care at 2.6306% and Communication Services at 2.5203%. At the other end, Utilities had the lowest volatility at 1.5530%, followed by Real Estate at 1.6357%. This suggests that Information Technology stocks experienced substantially larger day-to-day return fluctuations than the more stable Utilities and Real Estate sectors. Importantly, the sector with the strongest average return—Information Technology—also had the highest volatility, illustrating the basic risk-return trade-off: stronger historical returns in this period were accompanied by greater variability in daily performance.
+
+   Overall conclusion: The analysis shows that return and volatility should be considered together: Information Technology produced the strongest average daily return but also the greatest variability, while lower-volatility sectors such as Utilities provided more stable but weaker average performance.
+
+##
+
+### 3. NVDA (Nvidia): Sharpe ratio report
+
+
+**Sector:** Information Technology · **Data to:** 08 October 2026 · **Risk-free rate:** 4.00% a year
+
+| Window | Sharpe | Information Technology median | S&P 500 median | Annual return | Annual volatility | Total return | Percentile in S&P 500 |
+|---|---|---|---|---|---|---|---|
+| 1 year | **0.68** | 0.69 | 0.20 | 29.6% | 37.7% | 25.1% | 71 |
+| 2 years | **0.79** | 0.66 | 0.25 | 38.7% | 43.8% | 78.1% | 80 |
+| 3 years | **1.33** | 0.71 | 0.48 | 66.0% | 46.8% | 417.5% | 95 |
+| 5 years | **1.12** | 0.49 | 0.27 | 62.2% | 51.9% | 1038.4% | 98 |
+
+![NVDA Rolling_Sharpe](kenny/sharpe_output/NVDA_rolling_sharpe.png)
+![NVDA sharpe by window](kenny/sharpe_output/NVDA_sharpe_by_window.png)
+![NVDA sharpe distribution](kenny/sharpe_output/NVDA_sharpe_distribution.png)
+
+   
+   ### Method
+   - Daily return: change in `adj_close` (split- and dividend-adjusted) from the previous trading day.
+   - Sharpe ratio: mean daily return minus the daily risk-free rate, divided by the standard deviation of daily returns,
+   times sqrt(252).
+   - An N-year window runs from the close N years before 08 October 2026 to that date. Stocks listed for less than
+   the full window have no value for it.
+   - Medians and ranks use today's S&P 500 members only, so they exclude companies that left the index.
+
+   ### Observations
+   NVDA has an excellent Sharpe ratio > 1 over the past 3 to 5 years, given that it is an industry leader in Artificial Intelligence. 
+
+   A ratio above 1 means that it delivered an above market return for the amount of volatility associated with investing in the stock. Investing in stocks of companies under 1 leads to an inferior return compared to investing in a diversified basket of stocks like the S&P 500.
+
+##
+
+

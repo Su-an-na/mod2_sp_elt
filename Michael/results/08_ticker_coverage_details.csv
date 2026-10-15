@@ -1,0 +1,504 @@
+ticker,company,sector,ticker_first_date,ticker_last_date,trading_rows,coverage_status
+CEG,Constellation Energy,Utilities,2022-01-19,2026-10-06,1183,ENTERED_LATER
+FDXF,FedEx Freight,Industrials,2026-05-27,2026-10-06,92,ENTERED_LATER
+GEHC,GE HealthCare,Health Care,2022-12-15,2026-10-06,954,ENTERED_LATER
+GEV,GE Vernova,Industrials,2024-03-27,2026-10-06,634,ENTERED_LATER
+HONA,Honeywell Aerospace,Industrials,2026-06-15,2026-10-06,79,ENTERED_LATER
+KVUE,Kenvue,Consumer Staples,2023-05-04,2026-10-06,859,ENTERED_LATER
+PSKY,Paramount Skydance Corporation,Communication Services,2026-07-29,2026-10-06,7,ENTERED_LATER
+Q,Qnity Electronics,Information Technology,2025-10-27,2026-10-06,237,ENTERED_LATER
+RDDT,Reddit,Communication Services,2024-03-21,2026-10-06,638,ENTERED_LATER
+SNDK,Sandisk,Information Technology,2025-02-13,2026-10-06,413,ENTERED_LATER
+SOLV,Solventum,Health Care,2024-03-26,2026-10-06,635,ENTERED_LATER
+VLTO,Veralto,Industrials,2023-10-04,2026-10-06,754,ENTERED_LATER
+A,Agilent Technologies,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AAPL,Apple Inc.,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ABBV,AbbVie,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ABNB,Airbnb,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ABT,Abbott Laboratories,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ACGL,Arch Capital Group,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ACN,Accenture,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ADBE,Adobe Inc.,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ADI,Analog Devices,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ADM,Archer Daniels Midland,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ADP,Automatic Data Processing,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ADSK,Autodesk,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AEE,Ameren,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AEP,American Electric Power,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AES,AES Corporation,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AFL,Aflac,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AIG,American International Group,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AIZ,Assurant,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AJG,Arthur J. Gallagher & Co.,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AKAM,Akamai Technologies,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ALB,Albemarle Corporation,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ALGN,Align Technology,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ALL,Allstate,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ALLE,Allegion,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AMAT,Applied Materials,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AMCR,Amcor,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AMD,Advanced Micro Devices,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AME,Ametek,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AMGN,Amgen,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AMP,Ameriprise Financial,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AMT,American Tower,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AMZN,Amazon,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ANET,Arista Networks,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AON,Aon plc,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AOS,A. O. Smith,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+APA,APA Corporation,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+APD,Air Products,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+APH,Amphenol,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+APO,Apollo Global Management,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+APP,AppLovin,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+APTV,Aptiv,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ARE,Alexandria Real Estate Equities,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ARES,Ares Management,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ATO,Atmos Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AVGO,Broadcom,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AVY,Avery Dennison,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AWK,American Water Works,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AXON,Axon Enterprise,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AXP,American Express,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+AZO,AutoZone,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BA,Boeing,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BAC,Bank of America,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BALL,Ball Corporation,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BAX,Baxter International,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BBY,Best Buy,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BDX,Becton Dickinson,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BE,Bloom Energy,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BEN,Franklin Resources,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BF.B,Brown–Forman,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BG,Bunge Global,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BIIB,Biogen,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BKNG,Booking Holdings,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BKR,Baker Hughes,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BLK,BlackRock,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BMY,Bristol Myers Squibb,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BNY,BNY Mellon,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BR,Broadridge Financial Solutions,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BRK.B,Berkshire Hathaway,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BRO,Brown & Brown,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BSX,Boston Scientific,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BX,Blackstone Inc.,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+BXP,"BXP, Inc.",Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+C,Citigroup,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CAH,Cardinal Health,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CARR,Carrier Global,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CASY,Casey's,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CAT,Caterpillar Inc.,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CB,Chubb Limited,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CBOE,Cboe Global Markets,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CBRE,CBRE Group,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CCI,Crown Castle,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CCL,Carnival Corporation,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CDNS,Cadence Design Systems,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CDW,CDW Corporation,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CF,CF Industries,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CFG,Citizens Financial Group,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CHD,Church & Dwight,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CHRW,C.H. Robinson,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CHTR,Charter Communications,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CI,Cigna,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CIEN,Ciena,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CINF,Cincinnati Financial,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CL,Colgate-Palmolive,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CLX,Clorox,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CMCSA,Comcast,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CME,CME Group,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CMG,Chipotle Mexican Grill,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CMI,Cummins,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CMS,CMS Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CNC,Centene Corporation,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CNP,CenterPoint Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+COF,Capital One,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+COHR,Coherent Corp.,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+COIN,Coinbase,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+COO,Cooper Companies (The),Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+COP,ConocoPhillips,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+COR,Cencora,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+COST,Costco,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CPAY,Corpay,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CPRT,Copart,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CPT,Camden Property Trust,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CRH,CRH plc,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CRL,Charles River Laboratories,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CRM,Salesforce,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CRWD,CrowdStrike,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CSCO,Cisco,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CSGP,CoStar Group,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CSX,CSX Corporation,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CTAS,Cintas,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CTSH,Cognizant,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CTVA,Corteva,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CVNA,Carvana,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CVS,CVS Health,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+CVX,Chevron Corporation,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+D,Dominion Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DAL,Delta Air Lines,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DASH,DoorDash,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DD,DuPont,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DDOG,Datadog,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DE,Deere & Company,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DECK,Deckers Brands,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DELL,Dell Technologies,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DG,Dollar General,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DGX,Quest Diagnostics,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DHI,D. R. Horton,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DHR,Danaher Corporation,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DIS,Walt Disney Company (The),Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DLR,Digital Realty,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DLTR,Dollar Tree,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DOC,Healthpeak Properties,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DOV,Dover Corporation,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DOW,Dow Inc.,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DPZ,Domino's,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DRI,Darden Restaurants,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DTE,DTE Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DUK,Duke Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DVA,DaVita,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DVN,Devon Energy,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+DXCM,Dexcom,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EBAY,eBay Inc.,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ECHO,EchoStar,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ECL,Ecolab,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ED,Consolidated Edison,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EFX,Equifax,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EG,Everest Group,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EIX,Edison International,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EL,Estée Lauder Companies (The),Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ELV,Elevance Health,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EME,Emcor,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EMR,Emerson Electric,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EOG,EOG Resources,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EQIX,Equinix,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EQT,EQT Corporation,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ERIE,Erie Indemnity,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ES,Eversource Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ESS,Essex Property Trust,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ETN,Eaton Corporation,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ETR,Entergy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EVRG,Evergy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EW,Edwards Lifesciences,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EXC,Exelon,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EXE,Expand Energy,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EXPD,Expeditors International,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EXPE,Expedia Group,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+EXR,Extra Space Storage,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+F,Ford Motor Company,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FANG,Diamondback Energy,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FAST,Fastenal,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FCX,Freeport-McMoRan,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FDS,FactSet,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FDX,FedEx,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FE,FirstEnergy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FERG,Ferguson Enterprises,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FFIV,"F5, Inc.",Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FICO,Fair Isaac,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FIS,Fidelity National Information Services,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FISV,Fiserv,Financials,2021-10-06,2026-10-06,1254,FULL_PERIOD
+FITB,Fifth Third Bancorp,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FIX,Comfort Systems USA,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FLEX,Flex Ltd.,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FOX,Fox Corporation (Class B),Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FOXA,Fox Corporation (Class A),Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FRT,Federal Realty Investment Trust,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FSLR,First Solar,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FTNT,Fortinet,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+FTV,Fortive,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GD,General Dynamics,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GDDY,GoDaddy,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GE,GE Aerospace,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GEN,Gen Digital,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GILD,Gilead Sciences,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GIS,General Mills,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GL,Globe Life,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GLW,Corning Inc.,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GM,General Motors,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GNRC,Generac,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GOOG,Alphabet Inc. (Class C),Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GOOGL,Alphabet Inc. (Class A),Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GPC,Genuine Parts Company,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GPN,Global Payments,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GRMN,Garmin,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GS,Goldman Sachs,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+GWW,W. W. Grainger,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HAL,Halliburton,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HAS,Hasbro,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HBAN,Huntington Bancshares,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HCA,HCA Healthcare,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HD,Home Depot (The),Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HIG,Hartford (The),Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HII,Huntington Ingalls Industries,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HLT,Hilton Worldwide,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HON,Honeywell Technologies,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HOOD,Robinhood Markets,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HPE,Hewlett Packard Enterprise,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HPQ,HP Inc.,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HRL,Hormel Foods,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HSIC,Henry Schein,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HST,Host Hotels & Resorts,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HSY,Hershey Company (The),Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HUBB,Hubbell Incorporated,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HUM,Humana,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+HWM,Howmet Aerospace,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IBKR,Interactive Brokers,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IBM,IBM,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ICE,Intercontinental Exchange,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IDXX,Idexx Laboratories,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IEX,IDEX Corporation,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IFF,International Flavors & Fragrances,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ILMN,"Illumina, Inc.",Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+INCY,Incyte,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+INTC,Intel,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+INTU,Intuit,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+INVH,Invitation Homes,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IP,International Paper,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IQV,IQVIA,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IR,Ingersoll Rand,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IRM,Iron Mountain,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ISRG,Intuitive Surgical,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IT,Gartner,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ITW,Illinois Tool Works,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+IVZ,Invesco,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+J,Jacobs Solutions,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+JBHT,J.B. Hunt,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+JBL,Jabil,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+JCI,Johnson Controls,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+JKHY,Jack Henry & Associates,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+JNJ,Johnson & Johnson,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+JPM,JPMorgan Chase,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KDP,Keurig Dr Pepper,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KEY,KeyCorp,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KEYS,Keysight Technologies,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KHC,Kraft Heinz,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KIM,Kimco Realty,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KKR,KKR & Co.,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KLAC,KLA Corporation,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KMB,Kimberly-Clark,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KMI,Kinder Morgan,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KO,Coca-Cola Company (The),Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+KR,Kroger,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+L,Loews Corporation,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LDOS,Leidos,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LEN,Lennar,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LH,Labcorp,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LHX,L3Harris,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LII,Lennox International,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LIN,Linde plc,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LITE,Lumentum,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LLY,Lilly (Eli),Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LMT,Lockheed Martin,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LNT,Alliant Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LOW,Lowe's,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LRCX,Lam Research,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LULU,Lululemon Athletica,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LUV,Southwest Airlines,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LVS,Las Vegas Sands,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LYB,LyondellBasell,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+LYV,Live Nation Entertainment,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MA,Mastercard,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MAA,Mid-America Apartment Communities,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MAR,Marriott International,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MAS,Masco,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MCD,McDonald's,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MCHP,Microchip Technology,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MCK,McKesson Corporation,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MCO,Moody's Corporation,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MDLZ,Mondelez International,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MDT,Medtronic,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MET,MetLife,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+META,Meta Platforms,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MGM,MGM Resorts,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MKC,McCormick & Company,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MLM,Martin Marietta Materials,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MMM,3M,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MNST,Monster Beverage,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MO,Altria,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MOS,Mosaic Company (The),Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MPC,Marathon Petroleum,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MPWR,Monolithic Power Systems,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MRK,Merck & Co.,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MRNA,Moderna,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MRSH,Marsh McLennan,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MRVL,Marvell Technology,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MS,Morgan Stanley,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MSCI,MSCI,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MSFT,Microsoft,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MSI,Motorola Solutions,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MTB,M&T Bank,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MTD,Mettler Toledo,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+MU,Micron Technology,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NDAQ,"Nasdaq, Inc.",Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NDSN,Nordson Corporation,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NEE,NextEra Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NEM,Newmont,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NFLX,Netflix,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NI,NiSource,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NKE,"Nike, Inc.",Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NOC,Northrop Grumman,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NOW,ServiceNow,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NRG,NRG Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NSC,Norfolk Southern,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NTAP,NetApp,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NTRS,Northern Trust,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NUE,Nucor,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NVDA,Nvidia,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NVR,"NVR, Inc.",Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NWS,News Corp (Class B),Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NWSA,News Corp (Class A),Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+NXPI,NXP Semiconductors,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+O,Realty Income,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ODFL,Old Dominion,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+OKE,Oneok,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+OMC,Omnicom Group,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ON,ON Semiconductor,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ORCL,Oracle Corporation,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ORLY,O'Reilly Automotive,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+OTIS,Otis Worldwide,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+OXY,Occidental Petroleum,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+P,Everpure,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PANW,Palo Alto Networks,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PAYX,Paychex,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PCAR,Paccar,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PCG,PG&E Corporation,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PEG,Public Service Enterprise Group,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PEP,PepsiCo,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PFE,Pfizer,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PFG,Principal Financial Group,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PG,Procter & Gamble,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PGR,Progressive Corporation,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PH,Parker Hannifin,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PHM,PulteGroup,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PKG,Packaging Corporation of America,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PLD,Prologis,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PLTR,Palantir Technologies,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PM,Philip Morris International,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PNC,PNC Financial Services,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PNR,Pentair,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PNW,Pinnacle West Capital,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PODD,Insulet Corporation,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PPG,PPG Industries,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PPL,PPL Corporation,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PRU,Prudential Financial,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PSA,Public Storage,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PSX,Phillips 66,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PTC,PTC Inc.,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PWR,Quanta Services,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+PYPL,PayPal,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+QCOM,Qualcomm,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+RCL,Royal Caribbean Group,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+REG,Regency Centers,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+REGN,Regeneron Pharmaceuticals,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+RF,Regions Financial Corporation,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+RJF,Raymond James Financial,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+RL,Ralph Lauren Corporation,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+RMD,ResMed|,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ROK,Rockwell Automation,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ROL,"Rollins, Inc.",Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ROP,Roper Technologies,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ROST,Ross Stores,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+RSG,Republic Services,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+RTX,RTX Corporation,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+RVTY,Revvity,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SBAC,SBA Communications,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SBUX,Starbucks,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SCHW,Charles Schwab Corporation,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SHW,Sherwin-Williams,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SJM,J.M. Smucker Company (The),Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SLB,Schlumberger,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SMCI,Supermicro,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SNA,Snap-on,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SNPS,Synopsys,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SO,Southern Company,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SPG,Simon Property Group,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SPGI,S&P Global,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SRE,Sempra,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+STE,Steris,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+STLD,Steel Dynamics,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+STT,State Street Corporation,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+STX,Seagate Technology,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+STZ,Constellation Brands,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SW,Smurfit Westrock,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SWK,Stanley Black & Decker,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SWKS,Skyworks Solutions,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SYF,Synchrony Financial,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SYK,Stryker Corporation,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+SYY,Sysco,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+T,AT&T,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TDG,TransDigm Group,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TDY,Teledyne Technologies,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TECH,Bio-Techne,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TEL,TE Connectivity,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TER,Teradyne,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TFC,Truist Financial,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TGT,Target Corporation,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TJX,TJX Companies,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TKO,TKO Group Holdings,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TMO,Thermo Fisher Scientific,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TMUS,T-Mobile US,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TPL,Texas Pacific Land Corporation,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TPR,"Tapestry, Inc.",Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TRGP,Targa Resources,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TRMB,Trimble Inc.,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TROW,T. Rowe Price,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TRV,Travelers Companies (The),Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TSCO,Tractor Supply,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TSLA,"Tesla, Inc.",Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TSN,Tyson Foods,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TT,Trane Technologies,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TTWO,Take-Two Interactive,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TXN,Texas Instruments,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TXT,Textron,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+TYL,Tyler Technologies,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+UAL,United Airlines Holdings,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+UBER,Uber,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+UDR,"UDR, Inc.",Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+UHS,Universal Health Services,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ULTA,Ulta Beauty,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+UNH,UnitedHealth Group,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+UNP,Union Pacific Corporation,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+UPS,United Parcel Service,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+URI,United Rentals,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+USB,U.S. Bancorp,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+V,Visa Inc.,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VEEV,Veeva Systems,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VICI,Vici Properties,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VLO,Valero Energy,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VMC,Vulcan Materials Company,Materials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VMRK,Vivmark Residential,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VRSK,Verisk Analytics,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VRSN,Verisign,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VRT,Vertiv,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VRTX,Vertex Pharmaceuticals,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VST,Vistra Corp.,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VTR,Ventas,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VTRS,Viatris,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+VZ,Verizon,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WAB,Wabtec,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WAT,Waters Corporation,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WBD,Warner Bros. Discovery,Communication Services,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WDAY,"Workday, Inc.",Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WDC,Western Digital,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WEC,WEC Energy Group,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WELL,Welltower,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WFC,Wells Fargo,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WM,Waste Management,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WMB,Williams Companies,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WMT,Walmart,Consumer Staples,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WRB,W. R. Berkley Corporation,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WST,West Pharmaceutical Services,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WTW,Willis Towers Watson,Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WY,Weyerhaeuser,Real Estate,2021-10-06,2026-10-06,1255,FULL_PERIOD
+WYNN,Wynn Resorts,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+XEL,Xcel Energy,Utilities,2021-10-06,2026-10-06,1255,FULL_PERIOD
+XOM,ExxonMobil,Energy,2021-10-06,2026-10-06,1255,FULL_PERIOD
+XYL,Xylem Inc.,Industrials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+XYZ,"Block, Inc.",Financials,2021-10-06,2026-10-06,1255,FULL_PERIOD
+YUM,Yum! Brands,Consumer Discretionary,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ZBH,Zimmer Biomet,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ZBRA,Zebra Technologies,Information Technology,2021-10-06,2026-10-06,1255,FULL_PERIOD
+ZTS,Zoetis,Health Care,2021-10-06,2026-10-06,1255,FULL_PERIOD

@@ -1,0 +1,10 @@
+metric,metric_value
+distinct_sectors_full_dataset,11
+tickers_on_first_date,491
+tickers_on_latest_date,503
+tickers_present_first_and_latest,491
+tickers_entered_after_first_date,12
+tickers_exited_before_latest_date,0
+latest_snapshot_distinct_dates,1
+latest_snapshot_missing_market_cap,7
+latest_snapshot_missing_shares_out,7

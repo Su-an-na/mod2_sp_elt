@@ -1,0 +1,12 @@
+sector,stock_count,row_count,stocks_with_market_cap,stocks_missing_market_cap
+Industrials,83,83,82,1
+Financials,76,76,72,4
+Information Technology,74,74,74,0
+Health Care,60,60,60,0
+Consumer Discretionary,47,47,47,0
+Consumer Staples,33,33,31,2
+Utilities,31,31,31,0
+Real Estate,30,30,30,0
+Materials,25,25,25,0
+Communication Services,23,23,23,0
+Energy,21,21,21,0

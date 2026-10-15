@@ -1,0 +1,15 @@
+test_name,flagged_rows,status
+market_cap_above_10_trillion,228,REVIEW
+market_cap_below_1_billion,2115,REVIEW
+shares_above_50_billion,228,REVIEW
+shares_below_1_million,1821,REVIEW
+eps_diluted_abs_above_10000,532,REVIEW
+eps_ttm_abs_above_10000,283,REVIEW
+pe_abs_above_1000,1818,REVIEW
+p_cfo_abs_above_1000,370,REVIEW
+p_fcf_abs_above_1000,1308,REVIEW
+p_book_abs_above_1000,864,REVIEW
+dividend_yield_negative,0,PASS
+dividend_yield_above_50pct,0,PASS
+eps_growth_abs_above_100000pct,79,REVIEW
+revenue_growth_abs_above_10000pct,0,PASS

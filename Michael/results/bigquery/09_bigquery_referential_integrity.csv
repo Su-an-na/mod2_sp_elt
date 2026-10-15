@@ -1,0 +1,2 @@
+dim_rows,dim_tickers,dim_blank_ticker,fact_rows,fact_tickers,fact_blank_ticker,fact_ticker_date_pairs,orphan_fact_rows,orphan_tickers
+503,503,0,622689,503,0,622689,0,0

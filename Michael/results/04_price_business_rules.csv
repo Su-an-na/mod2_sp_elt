@@ -1,0 +1,12 @@
+test_name,failed_rows,status
+high_below_low,0,PASS
+high_below_open,0,PASS
+high_below_close,0,PASS
+low_above_open,0,PASS
+low_above_close,0,PASS
+non_positive_open,0,PASS
+non_positive_high,0,PASS
+non_positive_low,0,PASS
+non_positive_close,0,PASS
+non_positive_adj_close,0,PASS
+negative_volume,0,PASS

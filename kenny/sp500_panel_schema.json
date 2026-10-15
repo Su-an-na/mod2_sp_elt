@@ -1,0 +1,192 @@
+[
+ {
+  "name": "date",
+  "type": "DATE",
+  "mode": "REQUIRED"
+ },
+ {
+  "name": "ticker",
+  "type": "STRING",
+  "mode": "REQUIRED"
+ },
+ {
+  "name": "company",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "sector",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "sub_industry",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "date_added",
+  "type": "DATE",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "open",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "high",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "low",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "close",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "adj_close",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "volume",
+  "type": "INT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "chg_pct",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "rel_vol",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "dividends",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "stock_splits",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "mkt_cap",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "pe",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "p_cfo",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "p_fcf",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "p_book",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "div_yield_pct",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "fiscal_period_end",
+  "type": "DATE",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "fund_filed",
+  "type": "DATE",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "eps_diluted",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "eps_diluted_ttm",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "eps_ttm_yoy_pct",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "revenue_ps_ttm",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "revenue_ttm_yoy_pct",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "cfo_ps_ttm",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "fcf_ps_ttm",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "dps_ttm",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "book_value_ps",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "cash_ps",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "lt_debt_ps",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "assets_ps",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "liabilities_ps",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "shares_out",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+ }
+]

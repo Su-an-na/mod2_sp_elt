@@ -1,0 +1,7 @@
+test_name,failed_rows,status
+missing_market_cap,13531,REVIEW
+missing_shares_out,13531,REVIEW
+non_positive_market_cap,0,PASS
+non_positive_shares_out,0,PASS
+market_cap_reconciliation_over_1pct,0,PASS
+share_count_scale_jump_100x,25,REVIEW

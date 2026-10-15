@@ -1,0 +1,1 @@
+SUMMARIZE raw_sp500;

@@ -1,0 +1,20 @@
+category,test_name,failed_count,status,detail
+Daily return,Decimal-return formula mismatch,69350,REVIEW,Candidate formula: (close - previous_close) / previous_close
+Daily return,First observation should have no prior-day return,0,PASS,First observation for each ticker has no previous close
+Daily return,Missing daily return after first observation,0,PASS,Checks unexpected NULL daily returns
+Daily return,Percentage-return formula mismatch,619656,REVIEW,Candidate formula: decimal return x 100
+SMA,SMA 100 calculation mismatch,0,PASS,Compared with AVG(close) over current and previous 99 observations
+SMA,SMA 100 populated before 100 observations,0,PASS,A full 100-day SMA normally requires 100 observations
+SMA,SMA 20 calculation mismatch,0,PASS,Compared with AVG(close) over current and previous 19 observations
+SMA,SMA 20 populated before 20 observations,0,PASS,A full 20-day SMA normally requires 20 observations
+SMA,SMA 200 calculation mismatch,0,PASS,Compared with AVG(close) over current and previous 199 observations
+SMA,SMA 200 populated before 200 observations,0,PASS,A full 200-day SMA normally requires 200 observations
+SMA,SMA 50 calculation mismatch,0,PASS,Compared with AVG(close) over current and previous 49 observations
+SMA,SMA 50 populated before 50 observations,0,PASS,A full 50-day SMA normally requires 50 observations
+Source reconciliation,Raw duplicate ticker-date rows,0,PASS,Extra rows beyond one record per ticker-date
+Source reconciliation,Raw invalid date values,0,PASS,Raw STRING dates must convert successfully to DATE
+Source reconciliation,Raw keys missing from fact,0,PASS,Ticker-date keys present in raw but absent from transformed fact
+Source reconciliation,Raw vs fact date range,0,PASS,"raw=2021-10-06 to 2026-10-06, fact=2021-10-06 to 2026-10-06"
+Source reconciliation,Raw vs fact row count,0,PASS,"raw=622689, fact=622689"
+Source reconciliation,Raw vs fact ticker count,0,PASS,"raw=503, fact=503"
+Source reconciliation,Unexpected fact keys,0,PASS,Ticker-date keys created in fact but absent from raw
