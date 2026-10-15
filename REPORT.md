@@ -11,7 +11,7 @@ This project demonstrates an end-to-end data pipeline and analysis workflow usin
 
 * Established ELT data pipeline flow from S&P500 csv file data to Supabase(PostgreSQL) and finally to Google BigQuery as the datawarehouse destination.
 * Below are a few business insights we obtain from the S&P500 data:
-   * AAPL (Apple Inc.) has no incremental annual return growth since the period of 2023-10 to 2024-10.
+   * AAPL (Apple Inc.) has no incremental annual return growth since the period of 2023-10 to 2024-09.
    * Information Technology produced the strongest average daily return but also the greatest variability, while lower-volatility sectors such as Utilities provided more stable but weaker average performance.
    * NVDA has an excellent Sharpe ratio > 1 over the past 3 to 5 years, given that it is an industry leader in Artificial Intelligence.
 
