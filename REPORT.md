@@ -4,7 +4,7 @@
 > Members: Kenny, Angeline, Suhana, Neo, Michael
 ## Introduction
 
-This project demonstrates an end-to-end data pipeline and analysis workflow using a one-off static data source on six years of daily price data for S&P 500 stocks with over 600k of records. The data pipeline when through ELT process where it moves from CSV files through Supabase PostgreSQL and further extract and load into Google BigQuery as the destination datawarehouse, where it is further transformed with dbt in Google BigQuery and finally analyzed in Python. From the anlysis notice some observation and able to extract some business insights on S&P500 stock performance.
+This project demonstrates an end-to-end data pipeline and analysis workflow using a one-off static data source on six years of daily price data for S&P 500 stocks with over 600k of records. The data pipeline when through ELT process where it moves from CSV files through Supabase PostgreSQL and further extract and load into Google BigQuery as the destination datawarehouse, where it is further transformed with dbt in Google BigQuery and finally analyzed in Python. From the anlysis we notice some observation and able to extract some business insights on S&P500 stock performance.
 
 
 ## Executive Summary
@@ -19,9 +19,18 @@ This project demonstrates an end-to-end data pipeline and analysis workflow usin
 
 ## Technical Approach: Why tools were chosen?
 
-This data pipeline architecture is chosen as firstly, we are dealing only with one-off static csv data and we would like to host in Google Big Query mainly due to its records size of 600k and 38 fields and take advatage of the free GCP credit we have. We also use SQL to inspecting the data quality and found what look like errors. We then uses python (with the help of LLM) to get it clean before proceeding. To make the data analytics querying more efficient and to reduce redundant data such as repetive company name, we want to apply ELT so that we can take advantage of the dbt transformation to apply star schema for efficent querying, transform data types, introduce new fields and do basic final data integrity test on the data sitting in the datawarehouse to ensure there are no issues further before starting with the analysis. 
 
-Since we decide to use Meltano to facilitate ELT, we use Supabase to take advatage of the PostgreSQL database that we can tap via Meltano and target to Google Big Query. We then use dbt to transform the data and ensure the transformation that we need are done and the transformed data basic integrity check is done. We then use SQLAlchemy in python to connect to the database and use fetch it into Pandas DataFrame to start with our exploratory data analysis.
+![tech approach](images/tech_approach.png)   
+
+This data pipeline architecture is chosen as firstly, we want all members to be able to access the data independently and directly so we decide to host in Google Big Query. Another reason mainly due to its records size of 600k and 38 fields and take advatage of the free GCP credit we have. 
+
+We use SQL via duckdb to initially inspecting the data quality and found what look like errors. We then uses python (with the help of LLM) to get it clean before proceeding. 
+
+To make the data analytics querying more efficient and to reduce redundancy, we want to apply ELT so that we can take advantage of the dbt transformation to apply star schema for efficent querying, transform data types, introduce new fields and do basic final data integrity test on the data sitting in the datawarehouse to ensure there are no issues further before starting with the analysis.
+
+We then decide to use Meltano to facilitate ELT. We use Supabase to take advatage of the PostgreSQL database that we can tap via Meltano and target to Google Big Query. We then use dbt to transform the data and ensure then ensure the transformed data basic integrity check is done. 
+
+We finally use SQLAlchemy in python to connect to the database and use fetch it into Pandas DataFrame to start with our exploratory data analysis and visualisation.
 
 
 ## Overview of Data pipeline
@@ -244,7 +253,7 @@ Since we decide to use Meltano to facilitate ELT, we use Supabase to take advata
 ## Visualisation & Analysis
 Below are some analysis obtained.
 
-### 1. Apple's annual returns for the last three 12-month trailing periods
+### 1. Is there growth in Apple's annual returns for the last three 12-month trailing periods?
 
 The first analysis done is to look at Annual Return Metric. We select one of the popular ticker AAPL (Apple Inc.) and analyse it's latest Year-On-Year stock performance by selecting from the latest ending of September performance and look back past 3 years. Below is the viusalisation on AAPL Year-On-Year returns using adjusted closing prices from October 2023 to end September 2026.
 
@@ -252,7 +261,9 @@ The first analysis done is to look at Annual Return Metric. We select one of the
 
    **Observation**
 
-   Looking at the bar chart above starting with 2023-10 to 2024-09, we can see the annual return is at 30.86%. For the next period from 2024-10 to 2025-09 the annual return is only 13.45% showing a 17.41% percentage points decline from the previous period. In the following year however we can see the annual return has climb back up to 29.79% with 16.34% percentage points increase. This tells us that even though annual return has improved in for the latest past 12 months compared to previous year same period <b> but ultimately there is no incremental annual return growth since the period of 2023-10 to 2024-09.</b>
+   * Annual return Growth: Looking at the bar chart above starting with 2023-10 to 2024-09, we can see the annual return is at 30.86%. For the next period from 2024-10 to 2025-09 the annual return is only 13.45% showing a 17.41% percentage points decline from the previous period. In the following year however we can see the annual return has climb back up to 29.79% with 16.34% percentage points increase. 
+   
+   * Conclusion: This tells us that even though annual return has improved in for the latest past 12 months compared to previous year same period <b> but ultimately there is no incremental growth on annual return since 2 years ago (the period of 2023-10 to 2024-09).</b>
 
 ##
 
@@ -273,13 +284,13 @@ The first analysis done is to look at Annual Return Metric. We select one of the
 
  **Observation**
 
-   Findings — Average Daily Return:
+   * Average Daily Return:
    Over the latest one-year period, Information Technology recorded the highest average daily return at 0.2060%, followed by Energy at 0.1645% and Health Care at 0.0847%. Seven of the eleven sectors produced positive average daily returns, while Real Estate, Utilities, Consumer Discretionary and Communication Services recorded slightly negative averages. Communication Services had the lowest average daily return at -0.0182%. Overall, the results indicate that Information Technology and Energy delivered the strongest average day-to-day stock performance during the period, although these results represent historical performance and should not be interpreted as forecasts of future returns.
 
-   Findings — Daily Return Volatility:
+   * Daily Return Volatility:
    Information Technology also recorded the highest daily return volatility at 3.6026%, followed by Health Care at 2.6306% and Communication Services at 2.5203%. At the other end, Utilities had the lowest volatility at 1.5530%, followed by Real Estate at 1.6357%. This suggests that Information Technology stocks experienced substantially larger day-to-day return fluctuations than the more stable Utilities and Real Estate sectors. Importantly, the sector with the strongest average return—Information Technology—also had the highest volatility, illustrating the basic risk-return trade-off: stronger historical returns in this period were accompanied by greater variability in daily performance.
 
-   Overall conclusion: The analysis shows that return and volatility should be considered together: Information Technology produced the strongest average daily return but also the greatest variability, while lower-volatility sectors such as Utilities provided more stable but weaker average performance.
+   * Overall conclusion: The analysis shows that return and volatility should be considered together: Information Technology produced the strongest average daily return but also the greatest variability, while lower-volatility sectors such as Utilities provided more stable but weaker average performance.
 
 ##
 
@@ -309,10 +320,46 @@ The first analysis done is to look at Annual Return Metric. We select one of the
    - Medians and ranks use today's S&P 500 members only, so they exclude companies that left the index.
 
    ### Observations
-   NVDA has an excellent Sharpe ratio > 1 over the past 3 to 5 years, given that it is an industry leader in Artificial Intelligence. 
+   * NVDA has an excellent Sharpe ratio > 1 over the past 3 to 5 years, given that it is an industry leader in Artificial Intelligence. 
 
-   A ratio above 1 means that it delivered an above market return for the amount of volatility associated with investing in the stock. Investing in stocks of companies under 1 leads to an inferior return compared to investing in a diversified basket of stocks like the S&P 500.
+   * A ratio above 1 means that it delivered an above market return for the amount of volatility associated with investing in the stock. Investing in stocks of companies under 1 leads to an inferior return compared to investing in a diversified basket of stocks like the S&P 500.
 
 ##
 
+### 4. Sector Valuation
 
+![stock valuation](Neo/stock_valuation.png)
+
+   ### Observation
+   * Were sector price gains over the past year backed by profit growth? Using the team's `fact_dailyprice` and `dim_ticker` (read only), this compares each sector's median price growth with its median earnings growth from 7 Oct 2025 to 7 Oct 2026. 8 Oct is excluded as a partial-day download.
+
+   * IT's rally was earned (price +30%, earnings +32%). Financials grew earnings 23% while its price rose only 1%, at the lowest P/E of any sector (14.3).
+
+   * Conclusion: IT earned its rally; Financials grew profits 23% while prices stood still
+##
+
+
+### 5. Price momentum
+
+
+![Momentum 1](Angeline/momentum_1.png)
+![Momentum 2](Angeline/momentum_2.png)
+![Momentum 3](Angeline/momentum_3.png)
+![Momentum 4](Angeline/momentum_4.png)
+![Momentum 5](Angeline/momentum_5.png)
+
+
+   ### Observations
+   **Stock-level insights**
+   * AAPL Return Growth: No incremental annual return growth since the 2023-2024 period.
+
+   * NVDA Sharpe Ratio: Exceptional risk-adjusted Sharpe ratio > 1 over 3- and 5-year horizons.
+
+
+   **Sector-level insights**
+   * Risk-returns: Tech led in daily return (+0.21%) but exhibited greatest volatility (3.60%).
+
+   * Price-profits: Tech earned its rally (+30% price +32% profits) vs. Financials grew profits without moving price (+1%, +23%)
+
+   **Price momentum**
+   * Price vs. Moving Average to show if stock is on uptrend, (short-term or deeper) pullback, or downtrend.
